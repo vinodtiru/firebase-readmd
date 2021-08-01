@@ -1,0 +1,16 @@
+on: [push]
+
+jobs:
+  firebase_trigger:
+    runs-on: ubuntu-latest
+    name: Firebase trigger to firestore
+    steps:
+      - name: Update latest version in firestore database
+        uses: MONISH2395/firebase-trigger@master
+        with:
+          credentials: ${{ secrets.FIREBASE_CREDENTIALS }}
+          databaseUrl: https://ta-qas.firebaseio.com
+          databaseType: firestore
+          path: trigger
+          doc: ImsHg08RNhDt4wvJrlBO
+          value: '{"make": "audi"}'

@@ -1,0 +1,30 @@
+{
+  "name": "firebase-readmd",
+  "version": "1.0.0",
+  "description": "Read MD file and update firebase",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "pack": "ncc build",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vinodtiru/firebase-readmd.git"
+  },
+  "dependencies": {
+    "@actions/core": "^1.2.3",
+    "firebase-admin": "^8.10.0"
+  },
+  "devDependencies": {
+    "typescript": "^3.8.3",
+    "jest": "^25.1.0"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vinodtiru/firebase-readmd/issues"
+  },
+  "homepage": "https://github.com/vinodtiru/firebase-readmd#readme"
+}
