@@ -6,7 +6,7 @@ jobs:
     name: Firebase trigger to firestore
     steps:
       - name: Update latest version in firestore database
-        uses: MONISH2395/firebase-trigger@master
+        uses: vinodtiru/firebase-readmd@master
         with:
           credentials: ${{ secrets.FIREBASE_CREDENTIALS }}
           databaseUrl: https://ta-qas.firebaseio.com
