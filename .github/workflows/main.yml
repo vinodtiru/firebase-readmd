@@ -11,6 +11,6 @@ jobs:
           credentials: ${{ secrets.FIREBASE_CREDENTIALS }}
           databaseUrl: https://learn-simple-code.firebaseio.com
           databaseType: firestore
-          path: version/lastRelease
+          path: version
           doc: ImsHg08RNhDt4wvJrlBO
           value: '{"make": "audiv1"}'
