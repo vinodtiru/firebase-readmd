@@ -11,5 +11,4 @@ jobs:
           credentials: ${{ secrets.FIREBASE_CREDENTIALS }}
           databaseUrl: https://learn-simple-code.firebaseio.com
           databaseType: firestore
-          path: trigger
-          doc: ImsHg08RNhDt4wvJrlBO
+          path: version/lastRelease
