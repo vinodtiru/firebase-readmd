@@ -13,4 +13,3 @@ jobs:
           databaseType: firestore
           path: trigger
           doc: ImsHg08RNhDt4wvJrlBO
-          value: '{"make": "audiv1"}'
