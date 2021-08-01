@@ -9,7 +9,7 @@ jobs:
         uses: w9jds/firebase-trigger@master
         with:
           credentials: ${{ secrets.FIREBASE_CREDENTIALS }}
-          databaseUrl: https://ta-qas.firebaseio.com
+          databaseUrl: https://learn-simple-code.firebaseio.com
           databaseType: firestore
           path: trigger
           doc: ImsHg08RNhDt4wvJrlBO
