@@ -13,7 +13,7 @@ I call it trigger because of what this allows you to do. Firebase has extensive 
 * `doc` - **Required for Firestore** Document you want to modify. Uses set, so it will write/overwrite the whole file.
 * `value` - **Optional** Value you would like to set. Defaults to `Date.now()` timestamp. If you are using Firestore this MUST be a JSON Object.
 
-## Usage
+## Usage 2
 
 Writes to a realtime database, and sets the lastRelease to a `Date.now()` timestamp.
 
