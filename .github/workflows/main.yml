@@ -1,18 +1,16 @@
 on: [push]
 
 jobs:
-  firebase_trigger:
+  notify:
     runs-on: ubuntu-latest
-    name: Firebase trigger to firestore
+    name: Nofity
     steps:
-      - name: Check out repository code
-        uses: actions/checkout@v2
-      - name: Update latest version in firestore database
-        uses: vinodtiru/firebase-readmd@main
+      - name: Update latest version in realtime database
+        uses: w9jds/firebase-trigger@master
         with:
           credentials: ${{ secrets.FIREBASE_CREDENTIALS }}
           databaseUrl: https://ta-qas.firebaseio.com
           databaseType: firestore
           path: trigger
           doc: ImsHg08RNhDt4wvJrlBO
-          value: '{"make": "audi"}'
+          value: '{"make": "audiv1"}'
