@@ -3,6 +3,8 @@ import * as admin from 'firebase-admin';
 
 let firebase: admin.app.App;
 
+// c1
+
 const isDebug: boolean = core.isDebug();
 const isRequired = {
   required: true,
