@@ -12,3 +12,5 @@ jobs:
           databaseUrl: https://learn-simple-code.firebaseio.com
           databaseType: firestore
           path: version/lastRelease
+          doc: ImsHg08RNhDt4wvJrlBO
+          value: '{"make": "audiv1"}'
